@@ -87,7 +87,5 @@ Analyticsvidhya-SmartSearch/
 
 For support, email `navneetsatyamkumar@gmail.com`.
 
----
-
 
 
