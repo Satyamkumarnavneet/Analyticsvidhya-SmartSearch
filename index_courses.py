@@ -1,17 +1,39 @@
-import os
-from pinecone import Pinecone, ServerlessSpec
+import json
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from scrape_courses import all_course_details  # Import the scraped course data
 
-# Initialize Pinecone
-pc = Pinecone(api_key="pcsk_3w7D2y_7gKiuNtfY95GV24vcf97XdGM1P1FptTGru9huTGHnG4byA6baqXgL7bGVVEnWYY")
+# Initialize SentenceTransformer model for embeddings
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Check if index exists, if not create one
-if 'course-index' not in pc.list_indexes().names():
-    pc.create_index(
-        name='course-index', 
-        dimension=1536,  # Set the dimension of your embeddings here
-        metric='euclidean',  # or cosine, depending on your needs
-        spec=ServerlessSpec(
-            cloud='aws',
-            region='us-west-2'
-        )
-    )
+# Function to store course details in FAISS
+def store_in_faiss(course_details):
+    titles = [course["title"] for course in course_details]
+    descriptions = [course["description"] for course in course_details]
+
+    # Combine titles and descriptions into one string for a more comprehensive embedding
+    combined_texts = [title + " " + description for title, description in zip(titles, descriptions)]
+
+    # Generate embeddings for course details
+    embeddings = model.encode(combined_texts)
+
+    # Convert embeddings to numpy array for FAISS
+    embeddings = np.array(embeddings).astype("float32")
+
+    # Initialize FAISS index
+    dimension = embeddings.shape[1]  # Get the dimensionality of the embeddings
+    index = faiss.IndexFlatL2(dimension)  # Use L2 distance for similarity
+
+    # Add embeddings to FAISS index
+    index.add(embeddings)
+
+    return index
+
+# Store course details in FAISS
+faiss_index = store_in_faiss(all_course_details)
+
+# Optionally, save the FAISS index to disk
+faiss.write_index(faiss_index, "course_faiss.index")
+
+print("Indexing completed. FAISS index saved to 'course_faiss.index'.")
