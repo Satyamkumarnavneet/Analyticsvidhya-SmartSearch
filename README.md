@@ -31,14 +31,16 @@ The objective of this project is to implement a Smart Search feature that allows
 
 ## Directory Structure
 ```
-Analyticsvidhya-SmartSearch/
+AnalyticsVidhya-SmartSearch/
 │
-├── courses.json               # Scraped course data
+├── course_details.json        # Scraped course data
 ├── scrape_courses.py          # Data scraping script
 ├── index_courses.py           # Embedding and indexing script
-├── app.py                     # Streamlit application
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
+├── app.py                     # Streamlit application for smart search
+├── course_faiss.index         # FAISS index for efficient search
+├── requirements.txt           # Dependencies for the project
+├── .gitignore                 # Git ignore file to exclude unnecessary files
+└── README.md                  # Project documentation and instructions
 ```
 
 ## Implementation Details
