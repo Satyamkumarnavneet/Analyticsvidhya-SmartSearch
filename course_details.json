@@ -1,0 +1,181 @@
+[
+    {
+        "title": "Frameworks for Effective Problem Solving",
+        "description": "Learn structured thinking with SMART, MECE, and Issue Trees. Define clear problem statements, solve challenges systematically, and avoid common pitfalls.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.9/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Anyone can Build AI Agents - Free Course",
+        "description": "Dive into the world of AI with ease! This short and engaging course introduces the exciting possibilities of creating AI agents using no-code platforms. Whether you're new to AI or just curious, we've designed this course to be beginner-friendly.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "A Comprehensive Learning Path to Become a Data Analyst in 2025",
+        "description": "Want to become a data analyst this year, but confused about where to start and what to follow? This comprehensive learning path from Analytics Vidhya should provide you with all the answers you need!",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "2 Hours",
+            "rating": "4.8/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Reimagining GenAI: Common Mistakes and Best Practices for Success",
+        "description": "Discover the Secrets to Implementing Generative AI Successfully",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.8/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Coding a ChatGPT-style Language Model from Scratch in PyTorch",
+        "description": "Learn to build your own language model with PyTorch step-by-step.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.8/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Mastering Multilingual GenAI Open-Weights for Indic Languages",
+        "description": "Unlock the power of open-weight models to build cutting-edge multilingual AI solutions.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.7/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Learning Autonomous Driving Behaviors with LLMs & RL",
+        "description": "Learn to train autonomous driving agents using Reinforcement Learning (RL) and Large Language Models (LLMs). Gain practical experience designing AI systems that simulate safe, human-like driving behavior.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.7/5",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "GenAI Applied to Quantitative Finance: For Control Implementation",
+        "description": "Embark on the journey to understand quantitative finance with GenAI. Learn to implement AI-driven control systems for trading, risk management, and predictive modeling, optimizing financial decision-making and performance.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.7/5",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "Navigating LLM Tradeoffs: Techniques for Speed, Cost, Scale & Accuracy",
+        "description": "Master the art of optimizing LLMs with practical techniques to achieve the best balance of performance and cost.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.8/5",
+            "difficulty": "Beginner"
+        }
+    },
+    {
+        "title": "Applied Machine Learning - Beginner to Professional",
+        "description": "This course provides you all the tools and techniques you need to apply machine learning to solve business problems. We will cover the basics of machine learning, how to build machine learning models, improve and deploy your machine learning models.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Ace Data Science Interviews",
+        "description": "A comprehensive course covering different kinds of interviews in data science industry and how to ace these interviews. This includes technical interviews on data science / machine learning, case study interviews, guesstimate based interviews.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Data Science Hacks, Tips and Tricks",
+        "description": "Become a better data scientist with crucial data science tips, tricks, python hacks, and efficient python code. Get python efficiency tips from industry experts at your finger tips.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Getting started with Decision Trees",
+        "description": "Unleash the power of decision tree algorithm in machine learning with our free decision tree course and training designed for beginners to learn coding in python.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Loan Prediction Practice Problem (Using Python)",
+        "description": "This course is aimed for people getting started into Data Science and Machine Learning while working on a real life practical problem.",
+        "curriculum": [],
+        "additional_info": {
+            "rating": "4.7/5",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "Big Mart Sales Prediction Using R",
+        "description": "This course is aimed for people getting started into Data Science and Machine Learning while solving the Big Mart Sales Prediction problem.",
+        "curriculum": [],
+        "additional_info": {
+            "rating": "4.6/5",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "Twitter Sentiment Analysis",
+        "description": "What is sentiment analysis? Why is sentiment analysis so popular in data science? And how can you perform sentiment analysis? Find the answers to all these questions in this free course on Sentiment Analysis using Python!",
+        "curriculum": [],
+        "additional_info": {
+            "rating": "4.7/5",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "Pandas for Data Analysis in Python",
+        "description": "Learn high-performance pandas in python tutorial, pandas library in python for data analysis in data science. Explore python libraries for data science in this exemplary free course.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Support Vector Machine (SVM) in Python and R",
+        "description": "Upskill with Support Vector Machine (SVM) in python, learn about SVM implementation in python from scratch in this free course for data scientists to ace in their data science career.",
+        "curriculum": [],
+        "additional_info": {}
+    },
+    {
+        "title": "Nano Course: Dreambooth-Stable Diffusion for Custom Images",
+        "description": "Theory to Practice: Dive into Stable Diffusion, its history, and significance, then master the Dreambooth process. Learn how to fine-tune Dreambooth model with your custom images discussing step by step in detail.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "1 Hour",
+            "rating": "4.6/5",
+            "difficulty": "Advanced"
+        }
+    },
+    {
+        "title": "Nano Course: Building Large Language Models for Code",
+        "description": "Learn how to train Large Language Models for Code from Scratch covering each step involved in detail from training data curation to model evaluation. Deep dive into the journey of creating Starcoder, a 15B parameter code generation model.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "38 Mins",
+            "rating": "4.7",
+            "difficulty": "Intermediate"
+        }
+    },
+    {
+        "title": "Nano Course: Cutting Edge LLM Tricks",
+        "description": "Learn cutting edge LLM tricks and techniques from top research papers including DeepMind and Meta AI and apply these tricks in building your own state of the art LLMs.",
+        "curriculum": [],
+        "additional_info": {
+            "duration": "38 Mins",
+            "rating": "4.7/5",
+            "difficulty": "Advanced"
+        }
+    }
+]
